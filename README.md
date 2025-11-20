@@ -2,8 +2,6 @@
 
 A comprehensive and robust Student Management System designed to streamline academic and administrative processes. This platform provides a centralized and efficient solution for managing student data, tracking performance, and facilitating communication between students, faculty, and administrators.
 
-This project was developed by BCA IVᵗʰ semester students of the Department of Computer Applications at KLE Technological University, Hubballi, under the guidance of Prof. Akash Hulakund.
-
 ---
 
 ## ✨ Features
@@ -123,12 +121,3 @@ This will create a default admin account with the following credentials:
 *   **Employee ID:** `100`
 *   **Password:** `password`
 *   **Email:** `johndoe@mail.com`
-
----
-
-## 👥 Team Members
-
-*   Nitish B (01FE23BCA055)
-*   Adithya A (01FE23BCA043)
-*   Virupaxappa M (01FE23BCA056)
-*   Shrishail B (01FE23BCA030)
