@@ -30,25 +30,33 @@ A comprehensive and robust Student Management System designed to streamline acad
 
 ```
 /
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middlewares/
-│   ├── utils/
-│   ├── database/
-│   ├── media/
+├── README.md
+├── backend
+│   ├── controllers
+│   ├── database
+│   ├── media
+│   ├── middlewares
+│   ├── models
+│   ├── routes
+│   ├── utils
+│   ├── admin-seeder.js
 │   ├── index.js
+│   ├── package-lock.json
 │   └── package.json
-└── frontend/
-    ├── public/
-    ├── src/
-    │   ├── components/
-    │   ├── redux/
-    │   ├── Screens/
-    │   ├── App.js
-    │   └── index.js
-    └── package.json
+└── frontend
+    ├── public
+    ├── src
+    │    ├── App.js
+    │    ├── Screens
+    │    ├── baseUrl.js
+    │    ├── components
+    │    ├── index.css
+    │    ├── index.js
+    │    └── redux
+    ├── package-lock.json
+    ├── package.json
+    └── tailwind.config.js
+
 ```
 
 ---
@@ -84,10 +92,6 @@ Create a `.env` file in the `backend` directory with the following variables:
 MONGODB_URI = mongodb://127.0.0.1:27017/Student-Management-System
 PORT = 4000
 FRONTEND_API_LINK = http://localhost:3000
-JWT_SECRET = THISISSECRET
-
-NODEMAILER_EMAIL =
-NODEMAILER_PASS =
 ```
 
 Create a `.env` file in the `frontend` directory:
